@@ -1,10 +1,12 @@
 import "./App.css";
 import Row from "./components/Row";
 import requests from "./requests";
+import Banner from "./components/Banner";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+      <Banner />
       <Row
         isLargeRow
         title="NETFLIX ORIGINALS"
